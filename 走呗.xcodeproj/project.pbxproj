@@ -18,8 +18,6 @@
 		189BCD981BAA6AB500294BCA /* login_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 189BCD921BAA6AB500294BCA /* login_weixin.png */; settings = {ASSET_TAGS = (); }; };
 		189BCD9A1BAA6E5C00294BCA /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 189BCD991BAA6E5C00294BCA /* login_bg.png */; settings = {ASSET_TAGS = (); }; };
 		189BCD9D1BAAA28000294BCA /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCD9C1BAAA28000294BCA /* ForgetViewController.m */; settings = {ASSET_TAGS = (); }; };
-		189BCDA01BAAADD200294BCA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCD9F1BAAADD200294BCA /* TestViewController.m */; settings = {ASSET_TAGS = (); }; };
-		189BCDA31BAAB2E100294BCA /* SetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCDA21BAAB2E100294BCA /* SetPasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18B5D24B1BA905CB006CC3B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D24A1BA905CB006CC3B2 /* main.m */; };
 		18B5D24E1BA905CB006CC3B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D24D1BA905CB006CC3B2 /* AppDelegate.m */; };
 		18B5D2541BA905CB006CC3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D2521BA905CB006CC3B2 /* Main.storyboard */; };
@@ -78,10 +76,6 @@
 		189BCD991BAA6E5C00294BCA /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bg.png; sourceTree = "<group>"; };
 		189BCD9B1BAAA28000294BCA /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
 		189BCD9C1BAAA28000294BCA /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
-		189BCD9E1BAAADD200294BCA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		189BCD9F1BAAADD200294BCA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		189BCDA11BAAB2E100294BCA /* SetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPasswordViewController.h; sourceTree = "<group>"; };
-		189BCDA21BAAB2E100294BCA /* SetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPasswordViewController.m; sourceTree = "<group>"; };
 		18B5D2451BA905CB006CC3B2 /* 走呗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "走呗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B5D2491BA905CB006CC3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B5D24A1BA905CB006CC3B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -440,10 +434,6 @@
 				18B5D2E41BA92C30006CC3B2 /* ViewController.m */,
 				189BCD9B1BAAA28000294BCA /* ForgetViewController.h */,
 				189BCD9C1BAAA28000294BCA /* ForgetViewController.m */,
-				189BCD9E1BAAADD200294BCA /* TestViewController.h */,
-				189BCD9F1BAAADD200294BCA /* TestViewController.m */,
-				189BCDA11BAAB2E100294BCA /* SetPasswordViewController.h */,
-				189BCDA21BAAB2E100294BCA /* SetPasswordViewController.m */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -607,7 +597,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189BCDA31BAAB2E100294BCA /* SetPasswordViewController.m in Sources */,
 				189BCD851BAA60AB00294BCA /* Login.m in Sources */,
 				189BCD8A1BAA619A00294BCA /* Account.m in Sources */,
 				18B5D2D51BA91BA8006CC3B2 /* ReleseViewController.m in Sources */,
@@ -619,7 +608,6 @@
 				189BCD8B1BAA619A00294BCA /* AccountTool.m in Sources */,
 				18B5D2D91BA91BD4006CC3B2 /* AppointmentViewController.m in Sources */,
 				18B5D2E51BA92C30006CC3B2 /* ViewController.m in Sources */,
-				189BCDA01BAAADD200294BCA /* TestViewController.m in Sources */,
 				18B5D2CF1BA91B79006CC3B2 /* MyViewController.m in Sources */,
 				18B5D2D21BA91B92006CC3B2 /* DiscoverViewController.m in Sources */,
 				18B5D24E1BA905CB006CC3B2 /* AppDelegate.m in Sources */,

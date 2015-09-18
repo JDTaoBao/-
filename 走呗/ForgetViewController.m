@@ -7,7 +7,6 @@
 //
 
 #import "ForgetViewController.h"
-#import "TestViewController.h"
 
 @interface ForgetViewController ()
 
@@ -28,12 +27,7 @@
 }
 
 - (IBAction)findPassWordButtonClicked:(id)sender {
-    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
-    TestViewController *tvc = [story instantiateViewControllerWithIdentifier:@"TestViewController"];
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
-    
-    [self.navigationController pushViewController:tvc animated:YES];
 }
 
 /*
