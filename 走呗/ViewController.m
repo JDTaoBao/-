@@ -10,18 +10,31 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong)UILabel *phoneNumberLabel;
+@property (nonatomic, strong)UILabel *passWordLabel;
+@property (nonatomic, strong)UIButton *loginButton;
+@property (nonatomic, strong)UIButton *forgetButton;
+@property (nonatomic, strong)UIButton *registerButton;
+@property (nonatomic, strong)UIButton *weiboButton;
+@property (nonatomic, strong)UIButton *qqButton;
+@property (nonatomic, strong)UIButton *weixinButton;
+
+
+
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
