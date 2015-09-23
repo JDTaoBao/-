@@ -1,23 +1,31 @@
 //
-//  ReleseViewController.m
+//  AppDetailViewController.m
 //  走呗
 //
-//  Created by apple on 15/9/16.
-//  Copyright (c) 2015年 JIUXIAO. All rights reserved.
+//  Created by apple on 15/9/21.
+//  Copyright © 2015年 JIUXIAO. All rights reserved.
 //
 
-#import "ReleseViewController.h"
+#import "AppDetailViewController.h"
+#import "Constants.h"
+#import "JXTabBarController.h"
 
-@interface ReleseViewController ()
+@interface AppDetailViewController ()
 
 @end
 
-@implementation ReleseViewController
+@implementation AppDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor purpleColor];
+    
+    self.view.backgroundColor = RGBCOLOR(213, 213, 213, 1);
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    JXTabBarController *jxTab = [[JXTabBarController alloc] init];
+    
 }
 
 - (void)didReceiveMemoryWarning {

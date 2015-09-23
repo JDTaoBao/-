@@ -1,23 +1,24 @@
 //
-//  MyViewController.m
+//  PostsViewController.m
 //  走呗
 //
 //  Created by apple on 15/9/16.
-//  Copyright (c) 2015年 JIUXIAO. All rights reserved.
+//  Copyright (c) 2015年 JX. All rights reserved.
 //
 
-#import "MyViewController.h"
+#import "PostsViewController.h"
 
-@interface MyViewController ()
+@interface PostsViewController ()
 
 @end
 
-@implementation MyViewController
-
+@implementation PostsViewController
+//帖子页面
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+    // Do any additional setup after loading the view from its nib.
+    self.title=@"帖子";
+    
 }
 
 - (void)didReceiveMemoryWarning {

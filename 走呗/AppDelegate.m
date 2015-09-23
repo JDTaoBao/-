@@ -7,20 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "JXTabBarController.h"
-#import "HomeViewController.h"
-#import "AppointmentViewController.h"
-#import "ReleseViewController.h"
-#import "DiscoverViewController.h"
-#import "MyViewController.h"
 #import "Login.h"
-#import "Constants.h"
-#import "LoginViewController.h"
-
 
 @interface AppDelegate ()
-
-@property (nonatomic, strong)Login *login;
 
 @end
 
@@ -28,58 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    // Override point for customization after application launch.
-//    
-//    HomeViewController *homeVC = [[HomeViewController alloc] init];
-//    UINavigationController *nhomeVC = [[UINavigationController alloc] initWithRootViewController:homeVC];
-//    
-//    AppointmentViewController *aVC = [[AppointmentViewController alloc] init];
-//    
-//    ReleseViewController *pvc= [[ReleseViewController alloc] init];
-//    
-//    DiscoverViewController *dvc = [[DiscoverViewController alloc] init];
-//    
-//    MyViewController *mvc = [[MyViewController alloc] init];
-//    
-//    self.tabbarController = [[JXTabBarController alloc] init];
-//    [_tabbarController setViewControllers:@[nhomeVC, aVC, pvc, dvc, mvc]];
-//    self.window.rootViewController = self.tabbarController;
-//    [self.window makeKeyAndVisible];
-    [self isLogined];
+    // Override point for customization after application launch.
     
     return YES;
-}
-
-- (void)isLogined {
-    self.login = [[Login alloc] init];
-    
-    if ([_login isLogined] == YES) {
-        // 已经登陆过
-        NSLog(@"laile");
-    } else {
-        // 首次登陆 没有本地账户信息
-        [self initLoginVC];
-        NSLog(@"laile1");
-    }
-}
-
-- (void)initLoginVC {
-    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    LoginViewController *lvc = [story instantiateViewControllerWithIdentifier:@"LoginViewController"];
-    
-    UINavigationController *nalvc = [[UINavigationController alloc] initWithRootViewController:lvc];
-    self.window.rootViewController = nalvc;
-    [self.window makeKeyAndVisible];
-    
-    //    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(FrameSizeWidth / 2.0 - 50, 100, 100, 100)];
-    //    logoImageView.image = [UIImage imageNamed:@"login_logo"];
-    //    [self.view addSubview:logoImageView];
-    //
-    //    self.phoneNumberLabel = [[UILabel alloc] initWithFrame:CGRectMake(FrameSizeWidth / 2.0 - 100, FrameSizeHeight / 2.0 - 25, 200, 25)];
-    
 }
 
 

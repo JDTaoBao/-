@@ -8,6 +8,7 @@
 
 #import "JXTabBar.h"
 #import "JXTabBarButton.h"
+#import "Constants.h"
 
 #define TabBarWidth (self.bounds.size.width - 136) / 10
 
@@ -17,6 +18,7 @@
  */
 @property (nonatomic, weak) UIButton *selectedBtn;
 @property (nonatomic, weak) NSArray  *array;
+@property (nonatomic, strong) UIView   *popView;
 
 @end
 
@@ -49,8 +51,32 @@
 				[self clickBtn:btn];
 			}
 		}
+        [self configPopView];
 	}
 	return self;
+}
+
+- (void)configPopView
+{
+    UIScreen *s=[UIScreen mainScreen];
+    CGFloat wid=[s bounds].size.width;
+    CGFloat height=[s bounds].size.height;
+    //点击中间的按钮弹出一个视图,是自定义的
+    self.popView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    self.popView.backgroundColor = [UIColor whiteColor];
+    UILabel *label=[[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 40)];
+    [label setText:@"弹出视图!"];
+    [label setTextColor:[UIColor blackColor]];
+    [self.popView addSubview:label];
+    
+    //底部的关闭按钮
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, height-48, wid, 48);
+    [button setImage:[UIImage imageNamed:@"5"] forState:UIControlStateNormal];
+    button.backgroundColor=[UIColor lightGrayColor];
+    [button addTarget:self action:@selector(closePopView) forControlEvents:UIControlEventTouchUpInside];
+    [self.popView addSubview:button];
+    
 }
 
 - (void)addButtonWithImage:(UIImage *)image selectedImage:(UIImage *)selectedImage {
@@ -96,7 +122,7 @@
             btn.tag = i; //设置按钮的标记, 方便来索引当前的按钮,并跳转到相应的视图
             
             CGFloat x = ((i + 1) * 2 - 1) * TabBarWidth + 50;
-            CGFloat y = - 15;
+            CGFloat y = 4;
             CGFloat width = 36;
             CGFloat height = 36;
             btn.frame = CGRectMake(x, y, width, height);
@@ -119,21 +145,36 @@
  *  自定义TabBar的按钮点击事件
  */
 - (void)clickBtn:(UIButton *)button {
-    //1.先将之前选中的按钮设置为未选中
-    self.selectedBtn.selected = NO;
-    //2.再将当前按钮设置为选中
-    button.selected = YES;
-    //3.最后把当前按钮赋值为之前选中的按钮
-    self.selectedBtn = button;
     
-    //却换视图控制器的事情,应该交给controller来做
-    //最好这样写, 先判断该代理方法是否实现
-    if ([self.delegate respondsToSelector:@selector(tabBar:selectedFrom:to:)]) {
-        [self.delegate tabBar:self selectedFrom:self.selectedBtn.tag to:button.tag];
+    if (button.tag == 2) {
+        [UIView animateWithDuration:0.5 animations:^{
+            [self addSubview:self.popView];//可以自定义一些控件加上动画的效果
+        }];
+    } else {
+        
+        //1.先将之前选中的按钮设置为未选中
+        self.selectedBtn.selected = NO;
+        //2.再将当前按钮设置为选中
+        button.selected = YES;
+        //3.最后把当前按钮赋值为之前选中的按钮
+        self.selectedBtn = button;
+        
+        //却换视图控制器的事情,应该交给controller来做
+        //最好这样写, 先判断该代理方法是否实现
+        if ([self.delegate respondsToSelector:@selector(tabBar:selectedFrom:to:)]) {
+            [self.delegate tabBar:self selectedFrom:self.selectedBtn.tag to:button.tag];
+        }
+        
+        //4.跳转到相应的视图控制器. (通过selectIndex参数来设置选中了那个控制器)
+        //self.selectedIndex = button.tag;
     }
+}
+
+#pragma mark - 点击弹出的视图上的关闭按钮
+- (void)closePopView {
+    //1.移除当前遮盖视图
+    [self.popView removeFromSuperview];
     
-    //4.跳转到相应的视图控制器. (通过selectIndex参数来设置选中了那个控制器)
-    //self.selectedIndex = button.tag;
 }
 
 @end

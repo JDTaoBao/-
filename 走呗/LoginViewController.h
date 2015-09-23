@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JXTabBarController.h"
 
 @interface LoginViewController : UIViewController
+
+@property (strong, nonatomic) JXTabBarController *tabbarController;
 
 @end

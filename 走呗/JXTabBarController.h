@@ -10,4 +10,5 @@
 
 @interface JXTabBarController : UITabBarController
 
+
 @end

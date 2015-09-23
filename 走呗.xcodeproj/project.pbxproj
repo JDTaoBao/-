@@ -25,29 +25,42 @@
 		18B5D2591BA905CB006CC3B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D2571BA905CB006CC3B2 /* LaunchScreen.xib */; };
 		18B5D2651BA905CB006CC3B2 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2641BA905CB006CC3B2 /* __Tests.m */; };
 		18B5D2BC1BA91445006CC3B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2BB1BA91445006CC3B2 /* LoginViewController.m */; };
-		18B5D2BF1BA91467006CC3B2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2BE1BA91467006CC3B2 /* RegisterViewController.m */; };
 		18B5D2C51BA9179F006CC3B2 /* FHSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2C41BA9179F006CC3B2 /* FHSegmentedViewController.m */; };
-		18B5D2CF1BA91B79006CC3B2 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2CE1BA91B79006CC3B2 /* MyViewController.m */; };
 		18B5D2D21BA91B92006CC3B2 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2D11BA91B92006CC3B2 /* DiscoverViewController.m */; };
 		18B5D2D51BA91BA8006CC3B2 /* ReleseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2D41BA91BA8006CC3B2 /* ReleseViewController.m */; };
 		18B5D2D91BA91BD4006CC3B2 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2D81BA91BD4006CC3B2 /* AppointmentViewController.m */; };
 		18B5D2E21BA92115006CC3B2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2E11BA92115006CC3B2 /* HomeViewController.m */; };
 		18B5D2E51BA92C30006CC3B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2E41BA92C30006CC3B2 /* ViewController.m */; };
-		18B5D2EA1BA935B0006CC3B2 /* tabbar_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D2E81BA935B0006CC3B2 /* tabbar_0.png */; };
-		18B5D2EB1BA935B0006CC3B2 /* tabbar_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D2E91BA935B0006CC3B2 /* tabbar_0@2x.png */; };
 		18B5D2EE1BA93D4D006CC3B2 /* JXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2ED1BA93D4D006CC3B2 /* JXTabBarController.m */; };
 		18B5D2F21BA93EB2006CC3B2 /* JXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2F11BA93EB2006CC3B2 /* JXTabBar.m */; };
 		18B5D2F81BA93F97006CC3B2 /* JXTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D2F71BA93F97006CC3B2 /* JXTabBarButton.m */; };
-		18B5D32F1BA95FC4006CC3B2 /* TabBar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D3251BA95FC4006CC3B2 /* TabBar1.png */; };
-		18B5D3301BA95FC4006CC3B2 /* TabBar1Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D3261BA95FC4006CC3B2 /* TabBar1Sel.png */; };
-		18B5D3311BA95FC4006CC3B2 /* TabBar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D3271BA95FC4006CC3B2 /* TabBar2.png */; };
-		18B5D3321BA95FC4006CC3B2 /* TabBar2Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D3281BA95FC4006CC3B2 /* TabBar2Sel.png */; };
-		18B5D3331BA95FC4006CC3B2 /* TabBar3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D3291BA95FC4006CC3B2 /* TabBar3.png */; };
-		18B5D3341BA95FC4006CC3B2 /* TabBar3Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D32A1BA95FC4006CC3B2 /* TabBar3Sel.png */; };
-		18B5D3351BA95FC4006CC3B2 /* TabBar4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D32B1BA95FC4006CC3B2 /* TabBar4@2x.png */; };
-		18B5D3361BA95FC4006CC3B2 /* TabBar4Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D32C1BA95FC4006CC3B2 /* TabBar4Sel.png */; };
 		18B5D3381BA95FC4006CC3B2 /* TabBar5Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D32E1BA95FC4006CC3B2 /* TabBar5Sel.png */; };
 		18B5D33A1BA9661D006CC3B2 /* TabBar5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5D3391BA9661D006CC3B2 /* TabBar5@2x.png */; };
+		18EDEDC21BAFA58600A56BC7 /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDEDC11BAFA58600A56BC7 /* AppDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033C31BABEA3C0023193E /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033AE1BABEA3C0023193E /* AttentionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033C41BABEA3C0023193E /* AttentionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033AF1BABEA3C0023193E /* AttentionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F033C51BABEA3C0023193E /* AvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033B11BABEA3C0023193E /* AvatarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033C61BABEA3C0023193E /* AvatarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033B21BABEA3C0023193E /* AvatarViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F033C71BABEA3C0023193E /* FansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033B41BABEA3C0023193E /* FansViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033C81BABEA3C0023193E /* FansViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033B51BABEA3C0023193E /* FansViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F033CA1BABEA3C0023193E /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033BA1BABEA3C0023193E /* PersonViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033CB1BABEA3C0023193E /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033BB1BABEA3C0023193E /* PersonViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F033CC1BABEA3C0023193E /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033BD1BABEA3C0023193E /* PostsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033CD1BABEA3C0023193E /* PostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033BE1BABEA3C0023193E /* PostsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F033CE1BABEA3C0023193E /* PraiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033C01BABEA3C0023193E /* PraiseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033CF1BABEA3C0023193E /* PraiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033C11BABEA3C0023193E /* PraiseViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F033D41BABEBE60023193E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F033D21BABEBE60023193E /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18F033D51BABEBE60023193E /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F033D31BABEBE60023193E /* RegisterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18F3F35B1BAD021D005FFBCC /* TabBar1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3531BAD021D005FFBCC /* TabBar1@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F35C1BAD021D005FFBCC /* TabBar1Sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3541BAD021D005FFBCC /* TabBar1Sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F35D1BAD021D005FFBCC /* TabBar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3551BAD021D005FFBCC /* TabBar2@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F35E1BAD021D005FFBCC /* TabBar2Sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3561BAD021D005FFBCC /* TabBar2Sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F35F1BAD021D005FFBCC /* TabBar3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3571BAD021D005FFBCC /* TabBar3@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F3601BAD021D005FFBCC /* TabBar4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3581BAD021D005FFBCC /* TabBar4@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F3611BAD021D005FFBCC /* TabBar4Sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3591BAD021D005FFBCC /* TabBar4Sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F3621BAD021D005FFBCC /* TopBarSel_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F35A1BAD021D005FFBCC /* TopBarSel_BG.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F3641BAD035C005FFBCC /* TopBar_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F3631BAD035C005FFBCC /* TopBar_BG.png */; settings = {ASSET_TAGS = (); }; };
+		18F3F3681BAD0E34005FFBCC /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3F3671BAD0E34005FFBCC /* HMSegmentedControl.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +103,8 @@
 		18B5D2B81BA913BD006CC3B2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		18B5D2BA1BA91445006CC3B2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		18B5D2BB1BA91445006CC3B2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		18B5D2BD1BA91467006CC3B2 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		18B5D2BE1BA91467006CC3B2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		18B5D2C31BA9179F006CC3B2 /* FHSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHSegmentedViewController.h; sourceTree = "<group>"; };
 		18B5D2C41BA9179F006CC3B2 /* FHSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHSegmentedViewController.m; sourceTree = "<group>"; };
-		18B5D2CD1BA91B79006CC3B2 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		18B5D2CE1BA91B79006CC3B2 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		18B5D2D01BA91B92006CC3B2 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		18B5D2D11BA91B92006CC3B2 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		18B5D2D31BA91BA8006CC3B2 /* ReleseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleseViewController.h; sourceTree = "<group>"; };
@@ -106,24 +115,48 @@
 		18B5D2E11BA92115006CC3B2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		18B5D2E31BA92C30006CC3B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18B5D2E41BA92C30006CC3B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18B5D2E81BA935B0006CC3B2 /* tabbar_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_0.png; sourceTree = "<group>"; };
-		18B5D2E91BA935B0006CC3B2 /* tabbar_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0@2x.png"; sourceTree = "<group>"; };
 		18B5D2EC1BA93D4D006CC3B2 /* JXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTabBarController.h; sourceTree = "<group>"; };
 		18B5D2ED1BA93D4D006CC3B2 /* JXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTabBarController.m; sourceTree = "<group>"; };
 		18B5D2F01BA93EB2006CC3B2 /* JXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTabBar.h; sourceTree = "<group>"; };
 		18B5D2F11BA93EB2006CC3B2 /* JXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTabBar.m; sourceTree = "<group>"; };
 		18B5D2F61BA93F97006CC3B2 /* JXTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTabBarButton.h; sourceTree = "<group>"; };
 		18B5D2F71BA93F97006CC3B2 /* JXTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTabBarButton.m; sourceTree = "<group>"; };
-		18B5D3251BA95FC4006CC3B2 /* TabBar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar1.png; path = images/tabbar/TabBar1.png; sourceTree = "<group>"; };
-		18B5D3261BA95FC4006CC3B2 /* TabBar1Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar1Sel.png; path = images/tabbar/TabBar1Sel.png; sourceTree = "<group>"; };
-		18B5D3271BA95FC4006CC3B2 /* TabBar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar2.png; path = images/tabbar/TabBar2.png; sourceTree = "<group>"; };
-		18B5D3281BA95FC4006CC3B2 /* TabBar2Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar2Sel.png; path = images/tabbar/TabBar2Sel.png; sourceTree = "<group>"; };
-		18B5D3291BA95FC4006CC3B2 /* TabBar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar3.png; path = images/tabbar/TabBar3.png; sourceTree = "<group>"; };
-		18B5D32A1BA95FC4006CC3B2 /* TabBar3Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar3Sel.png; path = images/tabbar/TabBar3Sel.png; sourceTree = "<group>"; };
-		18B5D32B1BA95FC4006CC3B2 /* TabBar4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar4@2x.png"; path = "images/tabbar/TabBar4@2x.png"; sourceTree = "<group>"; };
-		18B5D32C1BA95FC4006CC3B2 /* TabBar4Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar4Sel.png; path = images/tabbar/TabBar4Sel.png; sourceTree = "<group>"; };
 		18B5D32E1BA95FC4006CC3B2 /* TabBar5Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TabBar5Sel.png; path = images/tabbar/TabBar5Sel.png; sourceTree = "<group>"; };
 		18B5D3391BA9661D006CC3B2 /* TabBar5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar5@2x.png"; path = "images/tabbar/TabBar5@2x.png"; sourceTree = "<group>"; };
+		18EDEDC01BAFA58600A56BC7 /* AppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailViewController.h; sourceTree = "<group>"; };
+		18EDEDC11BAFA58600A56BC7 /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailViewController.m; sourceTree = "<group>"; };
+		18F033AD1BABEA3C0023193E /* AttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionViewController.h; sourceTree = "<group>"; };
+		18F033AE1BABEA3C0023193E /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
+		18F033AF1BABEA3C0023193E /* AttentionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttentionViewController.xib; sourceTree = "<group>"; };
+		18F033B01BABEA3C0023193E /* AvatarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarViewController.h; sourceTree = "<group>"; };
+		18F033B11BABEA3C0023193E /* AvatarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarViewController.m; sourceTree = "<group>"; };
+		18F033B21BABEA3C0023193E /* AvatarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvatarViewController.xib; sourceTree = "<group>"; };
+		18F033B31BABEA3C0023193E /* FansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FansViewController.h; sourceTree = "<group>"; };
+		18F033B41BABEA3C0023193E /* FansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FansViewController.m; sourceTree = "<group>"; };
+		18F033B51BABEA3C0023193E /* FansViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FansViewController.xib; sourceTree = "<group>"; };
+		18F033B91BABEA3C0023193E /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		18F033BA1BABEA3C0023193E /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		18F033BB1BABEA3C0023193E /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		18F033BC1BABEA3C0023193E /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		18F033BD1BABEA3C0023193E /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		18F033BE1BABEA3C0023193E /* PostsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostsViewController.xib; sourceTree = "<group>"; };
+		18F033BF1BABEA3C0023193E /* PraiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseViewController.h; sourceTree = "<group>"; };
+		18F033C01BABEA3C0023193E /* PraiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseViewController.m; sourceTree = "<group>"; };
+		18F033C11BABEA3C0023193E /* PraiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PraiseViewController.xib; sourceTree = "<group>"; };
+		18F033D11BABEBE60023193E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		18F033D21BABEBE60023193E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		18F033D31BABEBE60023193E /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		18F3F3531BAD021D005FFBCC /* TabBar1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar1@2x.png"; path = "images/tabbar/TabBar1@2x.png"; sourceTree = "<group>"; };
+		18F3F3541BAD021D005FFBCC /* TabBar1Sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar1Sel@2x.png"; path = "images/tabbar/TabBar1Sel@2x.png"; sourceTree = "<group>"; };
+		18F3F3551BAD021D005FFBCC /* TabBar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar2@2x.png"; path = "images/tabbar/TabBar2@2x.png"; sourceTree = "<group>"; };
+		18F3F3561BAD021D005FFBCC /* TabBar2Sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar2Sel@2x.png"; path = "images/tabbar/TabBar2Sel@2x.png"; sourceTree = "<group>"; };
+		18F3F3571BAD021D005FFBCC /* TabBar3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar3@2x.png"; path = "images/tabbar/TabBar3@2x.png"; sourceTree = "<group>"; };
+		18F3F3581BAD021D005FFBCC /* TabBar4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar4@2x.png"; path = "images/tabbar/TabBar4@2x.png"; sourceTree = "<group>"; };
+		18F3F3591BAD021D005FFBCC /* TabBar4Sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabBar4Sel@2x.png"; path = "images/tabbar/TabBar4Sel@2x.png"; sourceTree = "<group>"; };
+		18F3F35A1BAD021D005FFBCC /* TopBarSel_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TopBarSel_BG.png; path = images/tabbar/TopBarSel_BG.png; sourceTree = "<group>"; };
+		18F3F3631BAD035C005FFBCC /* TopBar_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TopBar_BG.png; path = images/tabbar/TopBar_BG.png; sourceTree = "<group>"; };
+		18F3F3661BAD0E34005FFBCC /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		18F3F3671BAD0E34005FFBCC /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +303,8 @@
 			children = (
 				18B5D2D71BA91BD4006CC3B2 /* AppointmentViewController.h */,
 				18B5D2D81BA91BD4006CC3B2 /* AppointmentViewController.m */,
+				18EDEDC01BAFA58600A56BC7 /* AppDetailViewController.h */,
+				18EDEDC11BAFA58600A56BC7 /* AppDetailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -367,8 +402,24 @@
 		18B5D2B11BA91258006CC3B2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18B5D2CD1BA91B79006CC3B2 /* MyViewController.h */,
-				18B5D2CE1BA91B79006CC3B2 /* MyViewController.m */,
+				18F033AD1BABEA3C0023193E /* AttentionViewController.h */,
+				18F033AE1BABEA3C0023193E /* AttentionViewController.m */,
+				18F033AF1BABEA3C0023193E /* AttentionViewController.xib */,
+				18F033B01BABEA3C0023193E /* AvatarViewController.h */,
+				18F033B11BABEA3C0023193E /* AvatarViewController.m */,
+				18F033B21BABEA3C0023193E /* AvatarViewController.xib */,
+				18F033B31BABEA3C0023193E /* FansViewController.h */,
+				18F033B41BABEA3C0023193E /* FansViewController.m */,
+				18F033B51BABEA3C0023193E /* FansViewController.xib */,
+				18F033B91BABEA3C0023193E /* PersonViewController.h */,
+				18F033BA1BABEA3C0023193E /* PersonViewController.m */,
+				18F033BB1BABEA3C0023193E /* PersonViewController.xib */,
+				18F033BC1BABEA3C0023193E /* PostsViewController.h */,
+				18F033BD1BABEA3C0023193E /* PostsViewController.m */,
+				18F033BE1BABEA3C0023193E /* PostsViewController.xib */,
+				18F033BF1BABEA3C0023193E /* PraiseViewController.h */,
+				18F033C01BABEA3C0023193E /* PraiseViewController.m */,
+				18F033C11BABEA3C0023193E /* PraiseViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -404,6 +455,7 @@
 		18B5D2B51BA9130A006CC3B2 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				18F3F3651BAD0E34005FFBCC /* HMSegmentedControl */,
 				18B5D2EF1BA93D56006CC3B2 /* TabBarController */,
 				18B5D2C21BA9179F006CC3B2 /* FHSegmentedViewController */,
 			);
@@ -415,8 +467,6 @@
 			children = (
 				189BCD8C1BAA6AA700294BCA /* login */,
 				18B5D2F91BA9470C006CC3B2 /* tabbar */,
-				18B5D2E81BA935B0006CC3B2 /* tabbar_0.png */,
-				18B5D2E91BA935B0006CC3B2 /* tabbar_0@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -424,10 +474,11 @@
 		18B5D2B91BA913F7006CC3B2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				18F033D11BABEBE60023193E /* RegisterViewController.h */,
+				18F033D21BABEBE60023193E /* RegisterViewController.m */,
+				18F033D31BABEBE60023193E /* RegisterViewController.xib */,
 				18B5D2BA1BA91445006CC3B2 /* LoginViewController.h */,
 				18B5D2BB1BA91445006CC3B2 /* LoginViewController.m */,
-				18B5D2BD1BA91467006CC3B2 /* RegisterViewController.h */,
-				18B5D2BE1BA91467006CC3B2 /* RegisterViewController.m */,
 				189BCD831BAA60AB00294BCA /* Login.h */,
 				189BCD841BAA60AB00294BCA /* Login.m */,
 				18B5D2E31BA92C30006CC3B2 /* ViewController.h */,
@@ -463,18 +514,28 @@
 		18B5D2F91BA9470C006CC3B2 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				18F3F3531BAD021D005FFBCC /* TabBar1@2x.png */,
+				18F3F3541BAD021D005FFBCC /* TabBar1Sel@2x.png */,
+				18F3F3551BAD021D005FFBCC /* TabBar2@2x.png */,
+				18F3F3561BAD021D005FFBCC /* TabBar2Sel@2x.png */,
+				18F3F3571BAD021D005FFBCC /* TabBar3@2x.png */,
+				18F3F3581BAD021D005FFBCC /* TabBar4@2x.png */,
+				18F3F3591BAD021D005FFBCC /* TabBar4Sel@2x.png */,
+				18F3F35A1BAD021D005FFBCC /* TopBarSel_BG.png */,
+				18F3F3631BAD035C005FFBCC /* TopBar_BG.png */,
 				18B5D3391BA9661D006CC3B2 /* TabBar5@2x.png */,
-				18B5D3251BA95FC4006CC3B2 /* TabBar1.png */,
-				18B5D3261BA95FC4006CC3B2 /* TabBar1Sel.png */,
-				18B5D3271BA95FC4006CC3B2 /* TabBar2.png */,
-				18B5D3281BA95FC4006CC3B2 /* TabBar2Sel.png */,
-				18B5D3291BA95FC4006CC3B2 /* TabBar3.png */,
-				18B5D32A1BA95FC4006CC3B2 /* TabBar3Sel.png */,
-				18B5D32B1BA95FC4006CC3B2 /* TabBar4@2x.png */,
-				18B5D32C1BA95FC4006CC3B2 /* TabBar4Sel.png */,
 				18B5D32E1BA95FC4006CC3B2 /* TabBar5Sel.png */,
 			);
 			name = tabbar;
+			sourceTree = "<group>";
+		};
+		18F3F3651BAD0E34005FFBCC /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				18F3F3661BAD0E34005FFBCC /* HMSegmentedControl.h */,
+				18F3F3671BAD0E34005FFBCC /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,28 +619,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F3F35B1BAD021D005FFBCC /* TabBar1@2x.png in Resources */,
 				18B5D2541BA905CB006CC3B2 /* Main.storyboard in Resources */,
-				18B5D2EB1BA935B0006CC3B2 /* tabbar_0@2x.png in Resources */,
 				18B5D2591BA905CB006CC3B2 /* LaunchScreen.xib in Resources */,
-				18B5D3351BA95FC4006CC3B2 /* TabBar4@2x.png in Resources */,
-				18B5D3361BA95FC4006CC3B2 /* TabBar4Sel.png in Resources */,
-				18B5D3331BA95FC4006CC3B2 /* TabBar3.png in Resources */,
-				18B5D2EA1BA935B0006CC3B2 /* tabbar_0.png in Resources */,
-				18B5D3341BA95FC4006CC3B2 /* TabBar3Sel.png in Resources */,
-				18B5D3311BA95FC4006CC3B2 /* TabBar2.png in Resources */,
+				18F033CF1BABEA3C0023193E /* PraiseViewController.xib in Resources */,
+				18F033CD1BABEA3C0023193E /* PostsViewController.xib in Resources */,
+				18F033CB1BABEA3C0023193E /* PersonViewController.xib in Resources */,
+				18F3F35E1BAD021D005FFBCC /* TabBar2Sel@2x.png in Resources */,
+				18F033C41BABEA3C0023193E /* AttentionViewController.xib in Resources */,
 				189BCD981BAA6AB500294BCA /* login_weixin.png in Resources */,
 				189BCD961BAA6AB500294BCA /* login_qq.png in Resources */,
+				18F3F35F1BAD021D005FFBCC /* TabBar3@2x.png in Resources */,
+				18F3F3621BAD021D005FFBCC /* TopBarSel_BG.png in Resources */,
+				18F033C81BABEA3C0023193E /* FansViewController.xib in Resources */,
+				18F3F3611BAD021D005FFBCC /* TabBar4Sel@2x.png in Resources */,
 				18B5D3381BA95FC4006CC3B2 /* TabBar5Sel.png in Resources */,
 				189BCD931BAA6AB500294BCA /* login_logo.png in Resources */,
+				18F3F3641BAD035C005FFBCC /* TopBar_BG.png in Resources */,
+				18F3F35C1BAD021D005FFBCC /* TabBar1Sel@2x.png in Resources */,
 				189BCD971BAA6AB500294BCA /* login_weibo.png in Resources */,
+				18F033C61BABEA3C0023193E /* AvatarViewController.xib in Resources */,
+				18F3F3601BAD021D005FFBCC /* TabBar4@2x.png in Resources */,
 				189BCD9A1BAA6E5C00294BCA /* login_bg.png in Resources */,
-				18B5D3301BA95FC4006CC3B2 /* TabBar1Sel.png in Resources */,
 				189BCD951BAA6AB500294BCA /* login_phone.png in Resources */,
 				18B5D33A1BA9661D006CC3B2 /* TabBar5@2x.png in Resources */,
+				18F033D51BABEBE60023193E /* RegisterViewController.xib in Resources */,
 				18B5D2561BA905CB006CC3B2 /* Images.xcassets in Resources */,
-				18B5D3321BA95FC4006CC3B2 /* TabBar2Sel.png in Resources */,
 				189BCD941BAA6AB500294BCA /* login_password.png in Resources */,
-				18B5D32F1BA95FC4006CC3B2 /* TabBar1.png in Resources */,
+				18F3F35D1BAD021D005FFBCC /* TabBar2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,22 +666,29 @@
 			files = (
 				189BCD851BAA60AB00294BCA /* Login.m in Sources */,
 				189BCD8A1BAA619A00294BCA /* Account.m in Sources */,
+				18F033C71BABEA3C0023193E /* FansViewController.m in Sources */,
 				18B5D2D51BA91BA8006CC3B2 /* ReleseViewController.m in Sources */,
-				18B5D2BF1BA91467006CC3B2 /* RegisterViewController.m in Sources */,
 				18B5D2C51BA9179F006CC3B2 /* FHSegmentedViewController.m in Sources */,
 				18B5D2F21BA93EB2006CC3B2 /* JXTabBar.m in Sources */,
 				18B5D2BC1BA91445006CC3B2 /* LoginViewController.m in Sources */,
+				18F033CC1BABEA3C0023193E /* PostsViewController.m in Sources */,
+				18F033CE1BABEA3C0023193E /* PraiseViewController.m in Sources */,
+				18F3F3681BAD0E34005FFBCC /* HMSegmentedControl.m in Sources */,
 				189BCD9D1BAAA28000294BCA /* ForgetViewController.m in Sources */,
 				189BCD8B1BAA619A00294BCA /* AccountTool.m in Sources */,
+				18F033D41BABEBE60023193E /* RegisterViewController.m in Sources */,
 				18B5D2D91BA91BD4006CC3B2 /* AppointmentViewController.m in Sources */,
 				18B5D2E51BA92C30006CC3B2 /* ViewController.m in Sources */,
-				18B5D2CF1BA91B79006CC3B2 /* MyViewController.m in Sources */,
 				18B5D2D21BA91B92006CC3B2 /* DiscoverViewController.m in Sources */,
+				18F033C31BABEA3C0023193E /* AttentionViewController.m in Sources */,
 				18B5D24E1BA905CB006CC3B2 /* AppDelegate.m in Sources */,
 				18B5D2EE1BA93D4D006CC3B2 /* JXTabBarController.m in Sources */,
 				18B5D2F81BA93F97006CC3B2 /* JXTabBarButton.m in Sources */,
 				18B5D24B1BA905CB006CC3B2 /* main.m in Sources */,
+				18EDEDC21BAFA58600A56BC7 /* AppDetailViewController.m in Sources */,
+				18F033CA1BABEA3C0023193E /* PersonViewController.m in Sources */,
 				18B5D2E21BA92115006CC3B2 /* HomeViewController.m in Sources */,
+				18F033C51BABEA3C0023193E /* AvatarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,13 +817,15 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: zhujian0920@gmail.com (3KJNFFR8VA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhujian0920@gmail.com (3KJNFFR8VA)";
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
 				INFOPLIST_FILE = "走呗/Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jiuxiao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxiao.zoubei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0409d7c0-5dbf-467f-840b-a391e999a67c";
 			};
 			name = Debug;
 		};
@@ -759,13 +835,15 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: zhujian0920@gmail.com (3KJNFFR8VA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhujian0920@gmail.com (3KJNFFR8VA)";
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
 				INFOPLIST_FILE = "走呗/Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jiuxiao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxiao.zoubei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0409d7c0-5dbf-467f-840b-a391e999a67c";
 			};
 			name = Release;
 		};

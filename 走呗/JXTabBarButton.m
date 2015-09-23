@@ -10,7 +10,7 @@
 
 @implementation JXTabBarButton
 
-/**什么也不做就可以取消系统按钮的高亮状态*/
+// 什么也不做就可以取消系统按钮的高亮状态
 - (void)setHighlighted:(BOOL)highlighted {
     //    [super setHighlighted:highlighted];
 }

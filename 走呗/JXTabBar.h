@@ -18,6 +18,7 @@
 @end
 
 @interface JXTabBar : UIView
+
 @property(nonatomic,weak) id<JXTabBarDelegate> delegate;
 /**
  *  使用特定图片来创建按钮, 这样做的好处就是可扩展性. 拿到别的项目里面去也能换图片直接用

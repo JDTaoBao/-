@@ -1,23 +1,22 @@
 //
-//  ReleseViewController.m
+//  AvatarViewController.m
 //  走呗
 //
 //  Created by apple on 15/9/16.
-//  Copyright (c) 2015年 JIUXIAO. All rights reserved.
+//  Copyright (c) 2015年 JX. All rights reserved.
 //
 
-#import "ReleseViewController.h"
+#import "AvatarViewController.h"
 
-@interface ReleseViewController ()
+@interface AvatarViewController ()
 
 @end
 
-@implementation ReleseViewController
-
+@implementation AvatarViewController
+//头像页面
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor purpleColor];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
